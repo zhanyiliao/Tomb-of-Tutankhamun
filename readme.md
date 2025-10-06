@@ -60,11 +60,11 @@
 遊戲共分為**五回合**，最終由帳篷內寶石數最多的玩家獲勝。每回合開始前該回合的神器卡洗入牌堆中，每次從牌堆中翻開一張卡牌，翻開下一張卡牌前玩家須決定是否繼續探險。
 1. 選擇繼續探險之玩家，可能會遇到下列幾種卡牌：
 (1)**寶石卡**：寶石平均分配給選擇探索的玩家，剩下寶石放在寶石卡上
-<img src="image/treature6.png" width="19%" height="20%" /> <img src="image/treature5.png" width="19%" height="20%" /> <img src="image/treature3.png" width="19%" height="20%" /> <img src="image/treature4.png" width="19%" height="20%" /> <img src="image/treature1.png" width="19%" height="20%" />
+<img src="assets/treature6.png" width="19%" height="20%" /> <img src="assets/treature5.png" width="19%" height="20%" /> <img src="assets/treature3.png" width="19%" height="20%" /> <img src="assets/treature4.png" width="19%" height="20%" /> <img src="assets/treature1.png" width="19%" height="20%" />
 (2)**神器卡**：保留至場上，當該回合選擇返回營地的玩家僅一位時，方可拿走神器
-<img src="image/artifact1.png" width="19%" height="20%" /> <img src="image/artifact2.png" width="19%" height="20%" /> <img src="image/artifact3.png" width="19%" height="20%" /> <img src="image/artifact4.png" width="19%" height="20%" /> <img src="image/artifact5.png" width="19%" height="20%" />
+<img src="assets/artifact1.png" width="19%" height="20%" /> <img src="assets/artifact2.png" width="19%" height="20%" /> <img src="assets/artifact3.png" width="19%" height="20%" /> <img src="assets/artifact4.png" width="19%" height="20%" /> <img src="assets/artifact5.png" width="19%" height="20%" />
 (3)**災難卡**：若該卡為場上重複類型的災難，回合結束，尚未返回營地之玩家，該回合寶藏歸零
-<img src="image/hazard3.png" width="19%" height="20%" /> <img src="image/hazard5.png" width="19%" height="20%" /> <img src="image/hazard1.png" width="19%" height="20%" /> <img src="image/hazard2.png" width="19%" height="20%" />  <img src="image/hazard4.png" width="19%" height="20%" />  
+<img src="assets/hazard3.png" width="19%" height="20%" /> <img src="assets/hazard5.png" width="19%" height="20%" /> <img src="assets/hazard1.png" width="19%" height="20%" /> <img src="assets/hazard2.png" width="19%" height="20%" />  <img src="assets/hazard4.png" width="19%" height="20%" />  
 
 1. 選擇返回營地之玩家
 均分路徑上每張寶石卡剩餘的寶石，每回合的探索並不會影響放置於帳篷中的寶藏
@@ -73,21 +73,21 @@
 使用者透過點擊按鈕以及控制滑鼠進行操作。
 * LEAVE按鈕：返回營地
 * STAY按鈕：繼續探索
-![](image/button.png "buttonArea")
+![](assets/button.png "buttonArea")
 * 滑鼠操作：查看卡牌
   * 透過**左鍵拖移**或**滾輪滑動**查看通道中的卡牌
   * **點擊右鍵**即可回到最新卡牌的位置
-  ![](image/path.png "path")
+  ![](assets/path.png "path")
 
 
 ##遊戲畫面介紹
-![](image/game1.png "遊戲畫面")
+![](assets/game1.png "遊戲畫面")
 ####設定介面
 設置遊玩人數後點擊Game Rule可切換至遊戲規則，點擊下方Start可開始遊戲。
-![](image/setting.png "遊戲設定畫面")
+![](assets/setting.png "遊戲設定畫面")
 ####回合顯示
 回合數及圖片隨著回合不同而改變。
-<img src="image/round1.png" width="19%" height="20%" /> <img src="image/round2.png" width="19%" height="20%" /> <img src="image/round3.png" width="19%" height="20%" /> <img src="image/round4.png" width="19%" height="20%" /> <img src="image/round5.png" width="19%" height="20%" />
+<img src="assets/round1.png" width="19%" height="20%" /> <img src="assets/round2.png" width="19%" height="20%" /> <img src="assets/round3.png" width="19%" height="20%" /> <img src="assets/round4.png" width="19%" height="20%" /> <img src="assets/round5.png" width="19%" height="20%" />
 
 ####玩家資訊
 由左至右之圖示及數值依序為玩家頭像、該回合寶石數、帳篷內寶石數以及玩家選擇情形。
@@ -96,21 +96,22 @@
 * 帳棚內寶石數作為遊戲勝負關鍵，玩家僅能見到自己帳棚內的寶石數。
 * 遊戲進行時玩家尚未做出選擇，則顯示沙漏圖示，選擇完成則顯示打勾圖示。
 
-![](image/player.png "player")
+![](assets/player.png "player")
 每一個卷軸代表一位玩家。玩家選擇返回營地後，卷軸顏色即呈現灰色，同時該回合寶石數值停止顯示。可藉由玩家選擇情形圖示了解每一位玩家是否選擇完成。
-![](image/agentData.png "agentData")
+![](assets/agentData.png "agentData")
 
 ####卡牌通道
 顯出每一次抽出的卡牌，每一張卡牌下方含有該卡牌名稱。寶石卡及神器卡右上方會顯示當前剩餘數值，一但神器被取走或寶石被分完，圖示和數值即消失，僅留下背景。
-![](image/path.png "path")
+![](assets/path.png "path")
 ####按鈕選擇
 玩家透過按鈕選擇下一步動作，LEAVE代表返回營地，STAY代表繼續探險。
-![](image/button.png "buttonArea")
+![](assets/button.png "buttonArea")
 ####結束畫面
 遊戲結束時顯示全體玩家帳篷內的寶石數，寶石數最多的玩家為本次遊戲的獲勝者，玩家卷軸顯示出顏色並在最右方附上獎盃。
 卡牌通道區卡牌移除並顯示結束遊戲的字樣。
-![](image/end.png "end")
+![](assets/end.png "end")
 
 ####版權說明
 本遊戲的背景音樂使用Spring Spring創作的Egyptian Style, Dune Style，為免費資源。
+
 本遊戲所有圖片皆由小組成員繪製。
